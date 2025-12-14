@@ -1,0 +1,172 @@
+---
+title: "CETES"
+author: 
+  - "Samuel Gonzalez Benites"
+  - "Alejandro Emiliano Gaytan Jaramillo"
+  - "Alessandro Perez Piña"
+  - "Jaime Patricio Guido Rivera"
+  - "Mikel Augusto Marin Rodriguez"
+  - "Cesar Emiliano Villalobos De La Miyar"
+institute: "Escuela de Estudios Superiores Interdisciplinarios"
+format: revealjs
+---
+
+![](umich.png){fig-align="center" width="150px"}
+
+# CERTIFICADOS DE LA TESORERÍA DE LA FEDERACIÓN
+
+## Introducción
+
+Los Certificados de la Tesorería de la Federación (CETES) son el instrumento de deuda bursátil más antiguo emitido por Gobierno Federal. Se emitieron por primera vez en enero de 1978 y desde entonces constituyen un pilar fundamental en el desarrollo del mercado de dinero en México.
+
+
+## Metodo general para valuar los CETES
+
+El precio de un **CETE** se puede calcular a partir de su tasa de rendimiento o de una tasa de descuento, el precio final puede variar ligeramente en función del número de cifras decimales que se ocupen.
+
+## A partir de la tasa de rendimiento
+
+A partir de la *tasa de rendimiento*, el precio de un **CETE** se calcula utilizando la siguiente fórmula:
+
+$$
+P = \frac{VN}{1 + \frac{r \cdot t}{360}}
+$$
+
+donde
+
+- $P$ = Precio del CETE (redondeado a 7 decimales)
+- $VN$ = Valor nominal del título en pesos
+- $r$ = Tasa de rendimiento
+- $t$ = Plazo en días del CETE
+
+## A partir de la Tasa de descuento
+
+Si $b$ es la *tasa de descuento* de un CETE se tiene que:
+
+$$
+b = \frac{r}{1 + \frac{r \cdot t}{360}}
+$$
+
+ Despejando $r$ tenemos que:
+
+$$
+r = \frac{b}{1 - \frac{b \cdot t}{360}}
+$$
+
+## Y sustituyendo la fórmula para calcular el precio de un CETE a partir de su tasa de descuento:
+
+$$
+P = VN \cdot \left(1 - \frac{b \cdot t}{360}\right)
+$$
+
+De la primera ecuación se desprende que el precio de los CETES está compuesto por un solo elemento: *El valor presente del principal (Valor Nominal)*.
+
+## Ejemplo Práctico
+
+**1.** El 31 de agosto de 2000 un inversionista compra CETES con las siguientes características:
+
+- Valor Nominal: 10.00 pesos
+- Fecha de Colocación: 31 de agosto de 2000
+- Fecha de Vencimiento: 28 de septiembre de 2000
+- Días por vencer del título: 28 días
+
+## Opciones del inversionista
+Supongamos que dicho inversionista adquiere los títulos a un rendimiento anual de 15.50%. Para calcular el precio al cual tendrá que liquidar la operación, el inversionista tiene dos opciones:
+
+a) calcular el valor presente del principal a través de la tasa de rendimiento y 
+b) calcular el precio a partir de la "tasa de descuento" que proporcione este rendimiento.
+
+## a) Calculemos el rendimiento con 15.50%
+
+El precio de liquidación de cada título es:
+
+$$
+P = \frac{10}{\left(1 + \frac{0.1550 \times 28}{360}\right)} = \frac{10}{1.01205555556} = 9.8808805
+$$
+
+## b) Calculo del descuento equivalente
+
+El descuento equivalente a un rendimiento de 15.50% es:
+
+$$
+b = \frac{0.1550}{1 + \frac{0.1550 \times 28}{360}} = \frac{0.1550}{1.01205555556} = 0.1532 = 15.32\%
+$$
+
+Asi
+$$
+P = 10^4 \left( 1 - \frac{0.1532 \times 28}{360} \right) = 10^4 \cdot 0.98808444 = 9.88088444
+$$
+
+## Cetesdirecto
+Es una alternativa de inversión a través de instrumentos conocidos como "Bonos"
+
+- **Bono:** Es un instrumento de deuda (es decir, al comprarlo, estás prestando dinero al Gobierno), el cual paga intereses con una cierta frecuencia (periodo de interés) a una tasa que puede ser fija o variable durante el plazo del instrumento.
+- **Tasa de interés nominal:** Es el porcentaje que se traduce en un monto de dinero, mediante el cual se paga por el uso del dinero y con el que se calcula el pago de intereses que se anuncia cualquier inversión. Esta se encuentra ligada a un plazo anual.
+
+## Cetesdirecto
+
+- **Tasa de interés real:** Es un porcentaje que se obtiene después de descontar a la tasa de interés nominal el efecto de la inflación en un periodo de tiempo, normalmente son positivas, lo que se traduce en que el rendimiento de la inversión fue superior al incremento en los precios.
+- **Tasa de rendimiento:** Es la rentabilidad de una inversión durante un determinado período de tiempo.
+
+## Tipos de bono en **CETESDIRECTO**:
+
+- **Bono cupón cero:** Son aquellos bonos que no pagan intereses intermedios, es decir entre la fecha de compra y su vencimiento, si no que al vencimiento te devuelven el valor nominal, el cual es mayor al monto invertido dado que se compran a descuento, la diferencia entre el precio de compra y el valor nominal es tu ganancia.
+- **Bono a tasa fija:** Este tipo de instrumentos pagan la misma tasa de interés desde su emisión hasta su vencimiento en cada periodo cupón.
+- **Bonos a tasa revisable:** También llamados de tasa flotante, estos bonos actualizan su tasa de interés con la que pagan en cada periodo de pago de cupón. Es decir que actualizan su valor de acuerdo a una tasa de referencia, por ejemplo, la tasa de fondeo bancario, gubernamental, o de Cetes, con las condiciones vigentes del mercado.
+- **Bonos con protección contra la inflación:** Los bonos con protección contra la inflación cuentan con mecanismos para que tus recursos no se vean afectados en periodos en que la inflación pueda ser alta.
+
+
+## Ejemplo: 
+
+Alberto, padre de familia, busca ahorrar para la educación de sus hijos, cubrir las colegiaturas mensuales y realizar arreglos en su casa en algunos años. Aunque ya destina dinero a estos fines, desea aumentar el rendimiento de su ahorro.
+
+1. **Colegiaturas (mensual):** invierte en Cetes de corto plazo, lo que le permite generar intereses y contar con liquidez para pagar mes a mes.
+2. **Arreglos en casa (3 años):** ahorra en Bondes F a 3 años; a medida que se acerca el plazo, complementa con instrumentos de 1 año. Los intereses recibidos los reinvierte para incrementar su capital.
+3. **Educación preparatoria (7 años):** cada año destina parte de su aguinaldo a bonos BPA182, que ajustan su rendimiento con la inflación, protegiendo así el valor real de sus ahorros a largo plazo.
+
+# Inversiónes con CETES
+
+## Corto Plazo (1 día - 1 año)
+
+- Ejemplo: **CETES 28, 91, 182 días**
+- Usos: renta, servicios, gastos médicos.
+- Rendimiento: **6.8% – 7.6%**
+- Beneficio: liquidez rápida y segura.
+
+## Mediano Plazo (1 – 5 años)
+
+- Ejemplo: **CETES 364 días, Bonos a 3 y 5 años, Udibonos**
+- Usos: colegiaturas, proyectos, compras grandes.
+- Rendimiento: **7.0% – 9.0%**
+- Beneficio: objetivos anuales o de mayor costo.
+
+## Largo Plazo (10 – 30 años)
+
+- Ejemplo: **Bonos y Udibonos a 10, 20 o 30 años**
+- Usos: retiro, vivienda, independencia.
+- Rendimiento: **3.6% – 8.4%**
+- Beneficio: crecimiento patrimonial.
+
+
+
+## ¿Como maximizar rendimientos en cetesdirecto?
+
+1. Invertir a largo plazo ofrece un beneficio extra en la tasa de interés conocido como "premio por plazo".
+2. Los instrumentos a tasa variable en México también incluyen un premio, protegiendo al inversionista frente a la inflación.
+3. Gráficas muestran que invertir de manera constante a largo plazo genera mayores rendimientos que hacerlo solo a corto plazo.
+
+## Metas a largo plazo
+
+1. Al invertir, es importante considerar el impacto de la inflación.
+2. Productos destacados de cetesdirecto:
+- BPA182: paga intereses semestrales; la tasa se actualiza según la inflación.
+- UDIBONO: está en UDIs (Unidades de Inversión), protege tu dinero porque se ajusta con la inflación.
+- Ambos productos ayudan a mantener y hacer crecer el valor real del dinero frente a la inflación.
+
+
+
+## Conclusion
+
+- Los **CETES** son una inversión **segura**, respaldada por el Gobierno de México.
+- Sirven tanto para **ahorro de corto plazo** como para proyectos a futuro.
+- Al reinvertir rendimientos y diversificar plazos → **crece tu patrimonio y te preparas ante imprevistos**.
