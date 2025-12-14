@@ -1,0 +1,59 @@
+---
+title: "Tarea 2 Simulación Simple"
+author: "Samuel Gonzalez Benites No.Cuenta: 2431407A"
+format: 
+  html:
+    toc: true
+    toc-depth: 4
+    title-block-banner: "black-blue"
+  pdf:
+    toc: true
+    toc-depth: 4
+---
+![](umich.png){fig-align="center" width="150px"}
+
+# Tarea 2
+
+## Libreria Plotly
+
+```{r}
+library(plotly)
+```
+
+
+## Datos de interes simple y compuesto
+
+```{r}
+P = 100   # La simulación del valor futuro de la inversión es de $100 a lo largo del tiempo
+r = 0.03  # Supongamos que la tasa es de 3%
+t = 30    # Tomamos los mismos años que en el ejemplo
+tiempo = 0:t
+interes_simple = P * (1 + r * tiempo)
+interes_compuesto = P * (1 + r)^tiempo
+```
+
+```{r}
+datos_plot = data.frame(
+  Tiempo = tiempo,
+  Simple = interes_simple,
+  Compuesto = interes_compuesto
+)
+```
+
+Generamos la grafica con PlotLy
+
+```{r}
+plot_ly(datos_plot, x = ~Tiempo) %>%
+  add_trace(y= ~Simple, name='Interés simple', mode='lines+markers',
+            line= list(color='blue', width=3),
+            marker= list(color= 'blue', size=6)) %>%
+    add_trace(y = ~Compuesto, name = 'Interes compuesto', mode='lines+markers',
+            line = list(color = 'orange', width=3),
+            marker = list(color = 'orange', size=5)) %>%
+     layout(title = "Comparativo del Interes Simple vs Compuesto",
+         xaxis = list(title = "Años"),
+         yaxis = list(title = "Valor futuro de $100"),
+         legend = list( xanchor = 'center', x = 0.5, y = 1.1))
+```
+
+\`\`\`{r}
